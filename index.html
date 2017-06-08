@@ -64,7 +64,8 @@
         <!--( a ) Introduction -->
         
         <div class="introduction">
-            <img alt="" src="images/home_dp.jpg">
+            <!--<img alt="" src="images/home_dp.jpg">-->
+            <img alt="" src="images/home_dp.jpg" style="width: 100%; height: 100%;">
             <div class="mask">
             </div>
             <div class="intro-content">
@@ -1059,9 +1060,17 @@
                             <button style="width:100%" type="submit" name="_next" value="https://nkmishra1997.github.io/#sent" class="button button-block button-rounded button-white button-large"><i class="fa fa-paper-plane-o"></i> SEND</button>
                     </form>-->
                     <form id="contactform" action="//formspree.io/nkmishra1997@gmail.com" method="POST">
-                        <input type="text" name="name" placeholder="Your name">
-                        <input type="email" name="_replyto" placeholder="Your email">
-                        <textarea name="message" placeholder="Your message"></textarea>
+                        <input type="hidden" name="_subject" value="Message to Nikhil Mishra">
+							<input type="text" name="_gotcha" style="display:none">
+							<div class="to100">
+							    <fieldset class="pure-group">
+							        <input name="Name" type="text" class="pure-input-1" placeholder="Name" required="">
+							        <input name="_replyto" type="email" class="pure-input-1" placeholder="Email" required="">
+							    </fieldset>
+						   </div>
+						    <fieldset class="pure-group">
+						        <textarea name="Message" class="pure-input-1" style="resize: vertical" rows="20" placeholder="Message" required=""></textarea>
+						    </fieldset>
                         <input type="submit" value="Send">
                     </form>
                     
