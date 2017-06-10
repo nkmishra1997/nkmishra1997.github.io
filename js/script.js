@@ -126,6 +126,20 @@ $(document).ready(function () {
         $('.contact-page').fadeIn(1200);
     });
 
+    //Show Relative Page based on URL
+
+    // Get URL
+    // var url = window.location.href;
+    // url = url.toString();
+    // console.log(url);
+    // // Check if URL contains the keyword
+    // if( url.search( '#introduction' ) > 0 ) {
+    //     // Display the message
+    //     console.log('intro');
+    //     $('.profile-page').fadeIn(1200);
+        
+    // };
+
     // Close Button, Hide Menu
 
     $('.close-btn').on('click', function () {
