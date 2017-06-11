@@ -1023,7 +1023,7 @@ body {
     text-align: center;
 }
 
-.popup_content a {
+/*.popup_content a {
     border: 1px solid #6A8D9D;
     color: #6A8D9D;
     display: block;
@@ -1042,7 +1042,7 @@ body {
 .popup_content a:hover {
     background: #6A8D9D;
     color: #fff;
-}
+}*/
 
 /*----- Popup Sty;es [ END ] --------*/
 
